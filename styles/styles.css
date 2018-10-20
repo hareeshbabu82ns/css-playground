@@ -1,0 +1,39 @@
+/********* Base CSS ***********************/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*  {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+/*****************************************/
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,#7ED56Fbb,#28b485bb), url('../images/header-bg-trees.jpg');
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);    
+    display: flex;
+    flex-direction: column;
+}
+.header-logo {
+    font-size: 3em;
+    color: rgb(209, 94, 18);
+    align-self: flex-start;
+}
+.header-hero {
+    font-weight: 400;
+    color: rgb(209, 94, 18);
+    align-self: center;
+    align-content: center;
+    height: 100%;
+}
